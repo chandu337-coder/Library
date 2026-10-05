@@ -1,0 +1,53 @@
+*{
+    font-family: sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: wheat;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    padding: 30px;
+}
+
+#Library{
+    background-color: burlywood;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+}
+
+.book{
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    font-size: 1.2rem;
+    border-radius: 1em;
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 8px 8px 5px rgb(152, 125, 91);
+    margin: 20px;
+}
+
+button{
+    padding: 0.8em;
+    background-color: rgb(183, 153, 115);
+    margin-bottom: 2em;
+    color:white;
+    border-radius: 0.5em;
+    border:none;
+}
+
+button:hover{
+    background-color: rgb(165, 97, 42);
+}
