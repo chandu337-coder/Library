@@ -83,7 +83,7 @@ confirmBtn.addEventListener("click",(e)=>{
     title.textContent = `Title: ${module.title}`;
     author.textContent = `Author: ${module.author}`;
     pages.textContent = `Number of pages: ${module.pages}`;
-    status.textContent = `Read status: ${module.status}`;
+    status.textContent = "Read status: No";
     book.appendChild(title);
     book.appendChild(author);
     book.appendChild(pages);
